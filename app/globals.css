@@ -24,3 +24,44 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes logo-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-25%);
+  }
+}
+
+@keyframes logo-scroll-reverse {
+  from {
+    transform: translateX(-25%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-logo {
+  animation: logo-scroll 25s linear infinite;
+}
+
+.animate-logo-reverse {
+  animation: logo-scroll-reverse 25s linear infinite;
+}
+
+.trusted-brands {
+  overflow-x: clip;
+}
+
+@media (max-width: 640px) {
+  .animate-logo {
+    animation-duration: 20s;
+  }
+
+  .animate-logo-reverse {
+    animation-duration: 20s;
+  }
+}

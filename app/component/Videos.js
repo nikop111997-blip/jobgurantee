@@ -76,7 +76,7 @@ const VideoCard = ({ video }) => {
       </div>
 
       {/* Media Container (Thumbnail or iframe) */}
-      <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100 mb-5">
+      <div className="relative w-full aspect-[5/3] rounded-2xl overflow-hidden bg-gray-100 mb-5">
         {!isPlaying ? (
           <Image 
             src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
@@ -122,7 +122,7 @@ const VideoCard = ({ video }) => {
         {/* Action Button */}
         <button 
           onClick={() => setIsPlaying(!isPlaying)}
-          className="bg-[#1c1c1c] hover:bg-black text-white text-sm font-medium py-2 px-4 rounded-xl transition-colors duration-200"
+          className="bg-[#1c1c1c] hover:bg-black cursor-pointer text-white text-sm border border-white/30 font-medium py-2 px-4 rounded-full transition-colors duration-200 shadow-[inset_0_1px_2px_rgba(255,255,255,0.9),0_5px_20px_rgba(0,0,0,0.2)]"
         >
           {isPlaying ? 'Close video' : '▶ Play video'}
         </button>

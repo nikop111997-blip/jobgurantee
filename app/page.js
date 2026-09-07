@@ -16,6 +16,7 @@ import Testimonials from "./component/Testimonial";
 import WhyGrrasSection from "./component/WhyGrrasSection";
 import EligibilitySection from "./component/Eligibility";
 import ProcessSection from "./component/ProcessSec";
+import MentorsSection from "./component/MentorsSection";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
     <EligibilitySection/>
 <ProcessSection/>
     <ComparisonTable/>
+    <MentorsSection/>
     <WhyGrrasSection/>
     <CareerRoles/>
     <TrustedBrands/>

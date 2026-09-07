@@ -76,7 +76,7 @@ const TestimonialVideoCard = ({ data }) => {
       </div>
 
       {/* Media Container (YouTube Thumbnail -> switches to iframe on play) */}
-      <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100 mb-5 flex-grow">
+      <div className="relative w-full aspect-[5/3] rounded-2xl overflow-hidden bg-gray-100 mb-5 flex-grow">
         {!isPlaying ? (
           <div className="relative w-full h-full group cursor-pointer" onClick={() => setIsPlaying(true)}>
             {/* Using standard img tag for easy rendering of external domains */}
@@ -130,7 +130,7 @@ const TestimonialVideoCard = ({ data }) => {
         {/* Play/Close Action Button */}
         <button 
           onClick={() => setIsPlaying(!isPlaying)}
-          className="bg-[#1c1c1c] hover:bg-black text-white text-sm font-medium py-2 px-4 rounded-xl transition-colors duration-200 shrink-0 shadow-md flex items-center gap-2"
+          className="bg-[#1c1c1c] hover:bg-black shadow-[inset_0_1px_2px_rgba(255,255,255,0.9),0_5px_20px_rgba(0,0,0,0.2)] text-white text-sm font-medium py-2 px-8 rounded-full transition-colors duration-200 shrink-0 border border-white/30 cursor-pointer flex items-center gap-2"
         >
           {isPlaying ? (
              <>

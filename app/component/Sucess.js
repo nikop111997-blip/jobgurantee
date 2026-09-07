@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { IndianRupee } from 'lucide-react';
 
 const successStoriesData = [
   {
@@ -127,8 +128,8 @@ const SuccessCard = ({ story }) => {
         </div>
 
         {/* Action Button styled element displaying the Package */}
-        <div className="bg-[#1c1c1c] text-white text-sm font-medium py-2 px-4 rounded-xl shadow-md">
-          {story.package}
+        <div className="bg-[#1c1c1c] font-semibold flex items-center gap-1 shadow-[inset_0_1px_2px_rgba(255,255,255,0.9),0_5px_20px_rgba(0,0,0,0.2)] text-white text-sm font-medium py-2 px-4 rounded-full border border-white/30">
+          <IndianRupee size={14} />{story.package}
         </div>
       </div>
 

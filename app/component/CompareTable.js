@@ -36,7 +36,7 @@ const ComparisonCards = () => {
 
       {/* Header Section */}
       <div className="text-center max-w-6xl mb-10">
-        <h1 className="text-3xl md:text-[48px] leading-[1.1] font-semibold text-black mb-6 tracking-tight">
+        <h1 className="text-3xl md:text-[40px] leading-[1.1] font-semibold text-black mb-6 tracking-tight">
          Standard Vs Job Gurantee MLOps Programe
         </h1>
         <p className="text-md sm:text-[18px] text-gray-500 font-medium">

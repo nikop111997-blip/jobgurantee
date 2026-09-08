@@ -65,3 +65,17 @@ body {
     animation-duration: 20s;
   }
 }
+@keyframes placeholderBlink {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 0.9;
+  }
+}
+
+.animate-placeholder-blink::placeholder {
+  animation: placeholderBlink 1.5s ease-in-out infinite;
+}

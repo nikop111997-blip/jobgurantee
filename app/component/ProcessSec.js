@@ -49,10 +49,10 @@ export default function ProcessSection() {
           <span className="text-orange-500 font-bold text-sm tracking-wider uppercase mb-3 block">
             Projects & Interview Prep
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight mb-4">
+          <h2 className="text-4xl md:text-5xl font-semibold text-gray-900 tracking-tight mb-4">
             Build It. Explain It. <span className="text-orange-500">Deploy It.</span>
           </h2>
-          <p className="text-gray-500 text-lg max-w-2xl mx-auto mb-10">
+          <p className="text-gray-500 text-md max-w-2xl mx-auto mb-10">
             Don't just say "I have done a project." Confidently explain what you built, why you built it, how you deployed it, and how you would run it in production.
           </p>
         </div>
@@ -67,11 +67,10 @@ export default function ProcessSection() {
         >
           {/* High-quality tech/coding image placeholder */}
           <img 
-            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop" 
+            src="/mlops.png" 
             alt="Students working on projects" 
             className="absolute inset-0 w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-black/20"></div>
         </motion.div>
 
         {/* Bottom Overlapping White Card (Adapted from your dark glass version) */}
@@ -80,9 +79,9 @@ export default function ProcessSection() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
-          className="relative z-10 mx-4 sm:mx-8 md:mx-12 lg:mx-8 -mt-24 md:-mt-48 bg-white/95 backdrop-blur-2xl rounded-[32px] shadow-[0_20px_50px_rgba(0,0,0,0.1)] p-8 md:p-12 border border-white"
+          className="relative z-10 mx-4 sm:mx-8 md:mx-12 lg:mx-8 -mt-24 md:-mt-48 bg-white/25 backdrop-blur-xs rounded-[32px] shadow-[0_20px_50px_rgba(0,0,0,0.1)] p-8 md:p-12 border border-white"
         >
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-8 divide-y lg:divide-y-0 lg:divide-x divide-gray-200">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-8  divide-gray-200">
             
             {steps.map((step, index) => {
               const Icon = step.icon;
@@ -93,8 +92,8 @@ export default function ProcessSection() {
                   className={`flex flex-col items-center text-center ${index !== 0 ? 'pt-10 lg:pt-0 lg:pl-8' : 'lg:pr-4'}`}
                 >
                   {/* Icon Container */}
-                  <div className="bg-orange-50 flex items-center justify-center text-orange-500 w-16 h-16 rounded-2xl mb-6 shadow-sm border border-orange-100">
-                    <Icon size={28} strokeWidth={2} />
+                  <div className="bg-orange-500 flex items-center justify-center text-orange-50 w-12 h-12 rounded-full mb-6 shadow-sm border border-orange-100">
+                    <Icon size={24} strokeWidth={2} />
                   </div>
                   
                   {/* Title & Subtitle */}
@@ -106,7 +105,7 @@ export default function ProcessSection() {
                   </span>
                   
                   {/* Description */}
-                  <p className="text-[15px] text-gray-600 leading-relaxed max-w-[350px]">
+                  <p className="text-[13px] text-gray-600 leading-relaxed ">
                     {step.desc}
                   </p>
                 </motion.div>

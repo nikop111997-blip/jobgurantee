@@ -6,53 +6,14 @@ import { ChevronLeft, ChevronRight, Star, TrendingUp } from "lucide-react";
 
 // Extracted data from your provided HTML
 const mentors = [
-  {
-    id: 1,
-    name: "Kunal Singh",
-    role: "RHCSA RHCE OpenShift Certified",
-    rating: "4.30",
-    exp: "4",
-    image: "https://job-oriented-course.grras.com/assets/images/mentors/mentor_1735117175.jpg",
-  },
-  {
-    id: 2,
-    name: "Tanveer Singh",
-    role: "Soft-Skills and Communications Skills Trainer",
-    rating: "4.80",
-    exp: "12",
-    image: "https://job-oriented-course.grras.com/assets/images/mentors/mentor_1735031328.jpg",
-  },
-  {
-    id: 3,
-    name: "Idrees Ali",
-    role: "RHCA Certified",
-    rating: "4.50",
-    exp: "3",
-    image: "https://job-oriented-course.grras.com/assets/images/mentors/mentor_1735031231.jpg",
-  },
-  {
-    id: 4,
-    name: "Jyoti Gautam",
-    role: "RHCSA RHCE OpenShift Certified",
-    rating: "4.50",
-    exp: "7",
-    image: "https://job-oriented-course.grras.com/assets/images/mentors/mentor_1735031370.jpg",
-  },
-  {
-    id: 5,
-    name: "Kundan Parmar",
-    role: "RHCSA RHCE Certified",
-    rating: "4.50",
-    exp: "8",
-    image: "https://job-oriented-course.grras.com/assets/images/mentors/mentor_1735031498.jpg",
-  },
-  {
+
+    {
     id: 6,
-    name: "Rupesh Saini",
+    name: "Pahuldeep Singh",
     role: "RHCA, AWS, Openshift, DevsecOps Certified",
-    rating: "4.50",
+    rating: "4.95",
     exp: "7",
-    image: "https://job-oriented-course.grras.com/assets/images/mentors/mentor_1735031525.jpg",
+    image: "https://www.giptechnologies.com/_next/image?url=%2Fpahuldeep.jpeg&w=1920&q=75",
   },
   {
     id: 7,
@@ -60,15 +21,48 @@ const mentors = [
     role: "RHCA Level 5",
     rating: "4.90",
     exp: "17",
-    image: "https://job-oriented-course.grras.com/assets/images/mentors/mentor_1735031199.jpg",
+    image: "https://www.giptechnologies.com/_next/image?url=%2Fgaurvsir.jpeg&w=1920&q=75",
   },
+  {
+    id: 2,
+    name: "Tanveer Singh",
+    role: "Soft-Skills and Communications Skills Trainer",
+    rating: "4.80",
+    exp: "12",
+    image: "https://www.giptechnologies.com/_next/image?url=%2Ftans.png&w=1920&q=75",
+  },
+    {
+    id: 1,
+    name: "Kunal Singh",
+    role: "RHCSA RHCE OpenShift Certified",
+    rating: "4.30",
+    exp: "8+",
+    image: "https://azuredevops.grras.com/kunal.png",
+  },
+  {
+    id: 4,
+    name: "Jyoti Choudhary",
+    role: "Docker Kubernates Certified Trainer",
+    rating: "4.50",
+    exp: "7",
+    image: "/jyti.png",
+  },
+  {
+    id: 5,
+    name: "Daksha Arya",
+    role: "Placement Coordinator",
+    rating: "4.50",
+    exp: "8",
+    image: "/dakhsa.png",
+  },
+
   {
     id: 10,
     name: "Vaibhav Joshi",
     role: "RHCSA RHCE Certified",
     rating: "4.00",
     exp: "6",
-    image: "https://job-oriented-course.grras.com/assets/images/mentors/mentor_1735032691.jpg",
+    image: "/va.png",
   },
 ];
 

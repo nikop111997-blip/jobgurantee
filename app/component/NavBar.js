@@ -33,13 +33,7 @@ export default function Navbar() {
         { name: "Testimonials", href: "/testimonials" },
       ],
     },
-    {
-      name: "EDUVAULT",
-      href: "#",
-      dropdown: [
-        { name: "Learning Videos", href: "/learningVideos" },
-      ],
-    },
+    { name: "JOURNEY", href: "/#journey" },
     { name: "GALLERY", href: "/gallery" },
     { name: "FAQ", href: "/faq" },
   ];
@@ -57,7 +51,7 @@ export default function Navbar() {
           relative mx-auto flex max-w-[85rem] items-center justify-between
           rounded-full
           border border-white/25
-          px-3 py-2
+          px-1 pr-4 py-1
           shadow-[inset_0_1px_2px_rgba(255,255,255,0.9),0_5px_20px_rgba(0,0,0,0.2)]
           backdrop-blur-sm
           transition-colors duration-500
@@ -82,6 +76,7 @@ export default function Navbar() {
             rounded-full bg-white/40 blur-[0.5px]
           "
         />
+        <div className="flex bg-white px-2 pt-0.5 rounded-full  gap-0">
 <motion.a
   href="/"
   whileHover={{ scale: 1.06 }}
@@ -89,7 +84,7 @@ export default function Navbar() {
   className="
     relative z-10 flex h-14 w-14 p-1 items-center justify-center
     overflow-hidden rounded-full
-    border border-[#fff]/35
+    border border-[#0000]/75
     bg-[#fff]/[0.95]
     shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_5px_15px_rgba(0,0,0,0.25)]
     backdrop-blur-xl
@@ -101,6 +96,14 @@ export default function Navbar() {
     className="h-full w-full object-contain p-1" 
   />
 </motion.a>
+<div className="bg-white/80 backdrop-blur-3xl border border-white/10 rounded-full ">
+ <img
+  src="/red.png"
+  alt="GRRAS Logo"
+  className="h-[58px] w-[150px] object-contain"
+/>
+</div>
+</div>
 
         {/* Desktop Navigation */}
         <div className="relative z-10 hidden items-center gap-6 lg:flex">

@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./component/NavBar";
 import Footer from "./component/Footer";
 import GenAIEnrollModal from "./component/ModalForm";
+import BackToTop from "./component/BackToTop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
 
         <Footer/>
         <GenAIEnrollModal/>
+        <BackToTop/>
       </body>
 
     </html>

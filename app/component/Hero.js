@@ -52,7 +52,7 @@ export default function HeroSection() {
       
       {/* --- BACKGROUND IMAGE --- */}
       <div
-        className="absolute top-0 left-0 right-0 h-[120vh] max-h-[1400px] z-0 pointer-events-none"
+        className="absolute top-0 left-0 right-0 h-[120vh] max-h-[800px] z-0 pointer-events-none"
         style={{
           backgroundImage: `url('/bg.avif')`,
           backgroundSize: "cover",
@@ -79,7 +79,7 @@ export default function HeroSection() {
 
       {/* --- TOP CONTENT SECTION --- */}
       {/* Adjusted pt-32 sm:pt-48 down to pt-24 sm:pt-28 to pull content up */}
-      <section className="relative z-10 flex flex-col items-center text-center max-w-7xl mx-auto w-full pt-24 sm:pt-36 px-4">
+      <section className="relative z-10 flex flex-col items-center text-center max-w-7xl mx-auto w-full py-28 sm:pt-48 px-4">
         
         {/* Top Pill */}
         <motion.div 
@@ -153,35 +153,6 @@ export default function HeroSection() {
 </div>
         </motion.div>
       </section>
-      <div 
-        className="relative z-20 max-w-[1400px] mx-auto px-4 sm:px-6 w-full mt-12 sm:mt-0 pb-32"
-        style={{ perspective: "1200px" }}
-      >
-        <motion.div
-          style={{ 
-            rotateX, 
-            scale,
-            opacity,
-            y,
-            transformOrigin: "bottom center" 
-          }}
-          className="rounded-xl border-4 border-white/10 bg-black/50 overflow-hidden shadow-[0_30px_100px_-20px_rgba(255,107,0,0.2)] relative aspect-video group cursor-pointer backdrop-blur-xl"
-        >
-          <img 
-            src="https://images.pexels.com/photos/6954161/pexels-photo-6954161.jpeg" 
-            alt="MLOps Training Preview" 
-            className="w-full h-full object-cover transition-opacity duration-500" 
-          />
-          
-          <div className="absolute inset-0 bg-gradient-to-t from-[#09090b]/40 via-transparent to-transparent pointer-events-none" />
-
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
-            <div className="w-16 h-16 bg-[#ff6b00] shadow-[inset_0_1px_2px_rgba(255,255,255,0.9),0_5px_20px_rgba(0,0,0,0.2)] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <Play className="w-7 h-7 text-white fill-white ml-1" />
-            </div>
-          </div>
-        </motion.div>
-      </div>
     </div>
   );
 }

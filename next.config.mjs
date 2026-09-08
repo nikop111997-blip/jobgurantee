@@ -17,6 +17,15 @@ const nextConfig = {
         protocol:"https",
         hostname:"job-oriented-course.grras.com"
       },
+      
+      {
+        protocol:"https",
+        hostname:"www.giptechnologies.com"
+      },
+      {
+        protocol:"https",
+        hostname:"azuredevops.grras.com"
+      },
     ],
   },
 };

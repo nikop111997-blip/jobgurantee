@@ -4,53 +4,18 @@ import React, { useState } from 'react';
 
 const videoTestimonialsData = [
   {
-    videoId: "beh-qmE8gko",
-    name: "Siddharth Singh Chauhan",
+    videoId: "uaZe_FyEzuk",
+    name: "Mohit",
     role: "DevOps Engineer",
-    handle: "@siddharth",
+    handle: "@mohit",
     time: "2w ago"
   },
   {
-    videoId: "b5VOVNHtIe0",
-    name: "Rohan Jain",
+    videoId: "8MUbGAi_6j4",
+    name: "Anas",
     role: "DevOps Engineer at Red Hat",
     handle: "@rohanj",
     time: "1m ago"
-  },
-  {
-    videoId: "C6TVW90TnmA",
-    name: "Mohit",
-    role: "Trainee At Red Hat",
-    handle: "@mohit",
-    time: "3m ago"
-  },
-  {
-    videoId: "CpLJmXuQrtk",
-    name: "Aashish",
-    role: "DevOps Engineer",
-    handle: "@aashish",
-    time: "4m ago"
-  },
-  {
-    videoId: "v5Ghn7F4tIw",
-    name: "Harsh",
-    role: "Trainee At Red Hat",
-    handle: "@harsh",
-    time: "6m ago"
-  },
-  {
-    videoId: "dIMkiApg-kU",
-    name: "Mr. Prashant Agarwal",
-    role: "Red Hat",
-    handle: "@prashant",
-    time: "8m ago"
-  },
-  {
-    videoId: "T1319bB2MV4",
-    name: "Niharika Tripathi",
-    role: "Associate Software Engineer",
-    handle: "@niharika",
-    time: "1y ago"
   }
 ];
 

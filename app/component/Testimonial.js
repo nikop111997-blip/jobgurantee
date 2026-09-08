@@ -13,7 +13,7 @@ const testimonialsData = [
     package: "10 LPA",
     quote: "I am Tushar Baliyan, I enrolled into the Job Oriented Program at GRAS and I can't thank enough to the mentors and trainers for getting me placed at such a great organization that too in WFH remote option. I highly recommend GRRAS.",
     image: "https://job-oriented-course.grras.com/assets/images/stories/1732124901.png",
-    videoUrl: "https://www.youtube.com/embed/beh-qmE8gko?si=oMRjbUlDWMHThIkP"
+    videoUrl: "https://www.youtube.com/embed/wRZ92rDCCyE?si=ToNPWWZ3EFxbxeKG"
   },{
     id: 2,
     name: "Ritik Narula",
@@ -131,7 +131,7 @@ export default function Testimonials() {
               >
                 {/* Thumbnail from Spreadsheet */}
                 <img 
-                  src="https://img.youtube.com/vi/beh-qmE8gko/maxresdefault.jpg"
+                  src="https://img.youtube.com/vi/wRZ92rDCCyE/maxresdefault.jpg"
                   alt={featured.name}
                   className="w-full h-full object-cover object-top opacity-60 transition-opacity duration-300 group-hover:opacity-50"
                 />
@@ -143,18 +143,6 @@ export default function Testimonials() {
                   </div>
                 </div>
 
-                {/* Speaker Info Badge */}
-                <div className="absolute bottom-6 right-6 bg-white/95 backdrop-blur-xl p-3 pr-6 rounded-2xl flex items-center gap-4 shadow-lg transform transition-transform duration-300 group-hover:-translate-y-2 text-left">
-                  <img src={featured.image} alt={featured.name} className="w-14 h-14 rounded-xl object-cover" />
-                  <div>
-                    <h4 className="text-[#111] font-bold text-sm">{featured.name}</h4>
-                    <p className="text-gray-500 text-[11px] mb-1">Placed at {featured.company}</p>
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Package</span>
-                      <span className="text-[12px] font-bold text-[#FF6B00]">{featured.package}</span>
-                    </div>
-                  </div>
-                </div>
               </motion.div>
             ) : (
               /* YouTube Iframe (Loads on click) */

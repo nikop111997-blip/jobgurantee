@@ -166,13 +166,21 @@ export default function ChatPromptBox() {
           <Plus size={18} />
         </button>
 
-        <input
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder={isListening ? "Listening... Speak now..." : "Ask a question about the program..."}
-          className={`w-full bg-transparent border-none outline-none text-white/90 placeholder:text-white/30 text-sm font-medium focus:ring-0 ${isListening ? "animate-pulse text-[#ff6b00]" : ""}`}
-          autoComplete="off"
-        />
+       <input
+  value={input}
+  onChange={(e) => setInput(e.target.value)}
+  placeholder={
+    isListening
+      ? "Listening... Speak now..."
+      : "Ask a question about the program..."
+  }
+  className={`w-full bg-transparent border-none outline-none text-white/90 placeholder:text-white/30 text-sm font-medium focus:ring-0 ${
+    isListening
+      ? "animate-pulse text-[#ff6b00]"
+      : "animate-placeholder-blink"
+  }`}
+  autoComplete="off"
+/>
 
         <div className="flex items-center gap-2 flex-shrink-0">
           <button 

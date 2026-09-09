@@ -100,11 +100,14 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="text-4xl md:text-5xl lg:text-5xl font-semibold tracking-tight text-white leading-[1.15] mb-8 max-w-3xl"
+          className="text-4xl md:text-5xl lg:text-5xl font-semibold tracking-tight text-[#ff6b00] leading-[1.15] mb-4 max-w-3xl"
         >
-           Where AI Meets DevOps.<br/><span className="text-[#ff6b00]"> MLOps Begins.</span>
+           100% Job Guarantee <br/><span className="text-[#fff]"> in  DevOps, AI & MLOps.</span>
         </motion.h1>
-        
+        <p className="text-white text-xl font-semibold mb-6">
+GRRAS — 15+ Years as a Trusted Training Partner of Red Hat & Linux Foundation
+
+        </p>
         <p className="text-white/70 mb-8 max-w-3xl text-sm md:text-base">
           Master MLOps, AI & DevOps to build, deploy, automate and scale production-ready AI systems — with a 12-month career journey designed to take you from learning to employment.
         </p>

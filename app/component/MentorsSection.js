@@ -6,23 +6,33 @@ import { ChevronLeft, ChevronRight, Star, TrendingUp } from "lucide-react";
 
 // Extracted data from your provided HTML
 const mentors = [
+ {
+    id: 1,
+    name: "Kunal Singh",
+    role: "RHCSA RHCE OpenShift Certified",
+    rating: "4.30",
+    exp: "8+",
+    image: "https://azuredevops.grras.com/kunal.png",
+  },
 
-    {
-    id: 6,
-    name: "Pahuldeep Singh",
-    role: "RHCA, AWS, Openshift, DevsecOps Certified",
-    rating: "4.95",
-    exp: "7",
-    image: "https://www.giptechnologies.com/_next/image?url=%2Fpahuldeep.jpeg&w=1920&q=75",
+  {
+    id: 10,
+    name: "Vaibhav Joshi",
+    role: "RHCSA RHCE Certified",
+    rating: "4.00",
+    exp: "6",
+    image: "/va.png",
   },
   {
-    id: 7,
-    name: "Gaurav Saluja",
-    role: "RHCA Level 5",
+    id: 14,
+    name: "Sachin Yadav",
+    role: "Data Scientist ",
     rating: "4.90",
-    exp: "17",
-    image: "https://www.giptechnologies.com/_next/image?url=%2Fgaurvsir.jpeg&w=1920&q=75",
+    exp: "10",
+    image: "/sac.png",
   },
+   
+     
   {
     id: 2,
     name: "Tanveer Singh",
@@ -30,14 +40,6 @@ const mentors = [
     rating: "4.80",
     exp: "12",
     image: "https://www.giptechnologies.com/_next/image?url=%2Ftans.png&w=1920&q=75",
-  },
-    {
-    id: 1,
-    name: "Kunal Singh",
-    role: "RHCSA RHCE OpenShift Certified",
-    rating: "4.30",
-    exp: "8+",
-    image: "https://azuredevops.grras.com/kunal.png",
   },
   {
     id: 4,
@@ -56,13 +58,22 @@ const mentors = [
     image: "/dakhsa.png",
   },
 
+  
+   {
+    id: 6,
+    name: "Pahuldeep Singh",
+    role: "RHCA, AWS, Openshift, DevsecOps Certified",
+    rating: "4.95",
+    exp: "7",
+    image: "https://www.giptechnologies.com/_next/image?url=%2Fpahuldeep.jpeg&w=1920&q=75",
+  },
   {
-    id: 10,
-    name: "Vaibhav Joshi",
-    role: "RHCSA RHCE Certified",
-    rating: "4.00",
-    exp: "6",
-    image: "/va.png",
+    id: 7,
+    name: "Gaurav Saluja",
+    role: "RHCA Level 5",
+    rating: "4.90",
+    exp: "17",
+    image: "https://www.giptechnologies.com/_next/image?url=%2Fgaurvsir.jpeg&w=1920&q=75",
   },
 ];
 

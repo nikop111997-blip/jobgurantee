@@ -91,7 +91,7 @@ export default function Navbar() {
   "
 >
   <img 
-    src="https://job-oriented-course.grras.com/assets/images/general_setting/1738216909_GLogo.png" /* Replace with your actual image path */
+    src="https://openshift.grras.com/frontassets/img/logo.png" /* Replace with your actual image path */
     alt="GRRAS Logo" 
     className="h-full w-full object-contain p-1" 
   />

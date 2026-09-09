@@ -2,11 +2,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { X, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
-
 export default function GenAIEnrollModal() {
   const [isOpen, setIsOpen] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
-  
   // Form State
   const [formData, setFormData] = useState({
     name: '',
@@ -134,6 +132,7 @@ export default function GenAIEnrollModal() {
       experience: "",
       privacy: false,
     });
+    window.location.href = "/thank-you";
   } catch (error) {
     console.error(error);
     setSubmitStatus("error");

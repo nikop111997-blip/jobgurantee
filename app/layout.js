@@ -4,6 +4,7 @@ import Navbar from "./component/NavBar";
 import Footer from "./component/Footer";
 import GenAIEnrollModal from "./component/ModalForm";
 import BackToTop from "./component/BackToTop";
+import StickyWhatsApp from "./component/StickyWhatsApp";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
 
         <Footer/>
         <GenAIEnrollModal/>
+        <StickyWhatsApp/>
         <BackToTop/>
       </body>
 

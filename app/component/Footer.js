@@ -66,6 +66,8 @@ export default function Footer() {
           {/* Column 3: Contact Info */}
           <div className="flex flex-col gap-4">
             <h3 className="text-white text-[15px] font-semibold mb-2">Contact</h3>
+            <p className="text-sm text-orange-500">+91 6350-618066 | 
++91 82900 08535</p>
             <p className="text-[#A1A1A1] text-sm leading-relaxed">
               B-4, near Danik Bhaskar, Vivek Vihar, Bajaj Nagar, Jaipur, Rajasthan 302015
             </p>

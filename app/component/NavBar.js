@@ -178,7 +178,7 @@ export default function Navbar() {
             sm:flex
           "
         >
-          <PhoneCall size={16} className="mr-2" /> Connect to Expert
+          <PhoneCall size={20} className="mr-2" /> <div className="flex flex-col">+91 6350618066</div> 
         </motion.a>
 
         {/* Mobile Button */}

@@ -91,7 +91,7 @@ export default function GenAIEnrollModal() {
       consent: formData.privacy,
 
       // Required
-      course: "MLOps", // Change as needed
+      course: "MLOpsJobGurantee", // Change as needed
       level: "",
 
       // UTM Parameters
